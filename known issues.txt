@@ -1,0 +1,26 @@
+IE-based XPS Viewer issues:
+
+The viewer crashes when printing the following files to MXDW or XPSDrv. The bug in the viewer is understood and is currently being worked on.
+\Handcrafted\NamedColor.xps
+\QualityLogicMinBar\mb02.xps
+\QualityLogicMinBar\mb05.xps
+\Handcrafted\WindowsMediaPhoto.xps
+
+
+
+Standalone XPS Viewer issues:
+
+Printing the follwing files to MXDW results in an error saying that “The Viewer cannot print all of the pages in the document. Verify that the printer is installed correctly, and that you have permission to use the printer.”
+\MXDW\Properties\CoreProperty2.xps 
+\MXDW\Thumbnail\Thumbnail.xps
+\MXDW\Zip64Interleaving\Zip64I_Thumbnail_02_out.xps
+\MXDW\Zip64NonInterleaving\Zip64NI_Thumbnail_02_out.xps
+\MXDW\ZipInterleaving\ZipI_Thumbnail_02_out.xps
+\MXDW\ZipNonInterleaving\ZipNI_Thumbnail_02_out.xps
+
+
+
+IsXPS issues:
+
+isXPS incorrectly reports a couple of images to be invalid in \Handcrafted\ImagePixelFormats.xps. This bug is fixed in the latest internal version of isXPS, which will be shipped publicly as part of the Platform SDK
+
